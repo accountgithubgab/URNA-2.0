@@ -734,103 +734,218 @@ function visualizar() {
 
         ///////// 2A
 
+     
         case '37':
             img.src = './img/PSDD/presidente/matheusA.jpg';
-            inputNome.value = '';
-            inputParido.value = 'PSDD';
+            inputNome.value = 'Matheus Almeida';
+            inputParido.value = 'PSDD - Partido Social Democrata da';
+            inputParido1.value = 'Diversidade';
+            inputTipo.value = 'Presidente';
             break;
 
         case '3714':
             img.src = './img/PSDD/nathalia.jpg';
-            inputNome.value = '';
-            inputParido.value = 'PSDD';
+            inputNome.value = 'Nathalia Accordi';
+            inputParido.value = 'PSDD - Partido Social Democrata da';
+            inputParido1.value = 'Diversidade';
+            inputTipo.value = 'Deputado';
             break;
 
         case '3713':
             img.src = './img/PSDD/antonio.jpg';
-
+            inputNome.value = 'Antonio Schuch';
+            inputParido.value = 'PSDD - Partido Social Democrata da';
+            inputParido1.value = 'Diversidade';
+            inputTipo.value = 'Deputado';
             break;
 
         case '3731':
             img.src = './img/PSDD/juliaC.jpg';
-
+            inputNome.value = 'Julia Chaltein';
+            inputParido.value = 'PSDD - Partido Social Democrata da';
+            inputParido1.value = 'Diversidade';
+            inputTipo.value = 'Deputado';
             break;
 
         case '66':
             img.src = './img/PCA/presidente/lucasO.jpg';
-
+            inputNome.value = 'Lucas de Oliveira';
+            inputParido.value = 'PCA - Partido Cripto Anarquista';
+            inputTipo.value = 'Presidente';
             break;
 
         case '6660':
             img.src = './img/PCA/arthurD.jpg';
-
+            inputNome.value = 'Arthur Farias';
+            inputParido.value = 'PCA - Partido Cripto Anarquista';
+            inputTipo.value = 'Deputado';
             break;
 
         case '6669':
             img.src = './img/PCA/lucasN.jpg';
-
+            inputNome.value = 'Lucas Nazário';
+            inputParido.value = 'PCA - Partido Cripto Anarquista';
+            inputTipo.value = 'Deputado';
             break;
 
         case '6699':
             img.src = './img/PCA/thomas.jpg';
+            inputNome.value = 'Thomas Niehues';
+            inputParido.value = 'PCA - Partido Cripto Anarquista'
+            inputTipo.value = 'Deputado';
             break;
 
         case '49':
             img.src = './img/PRD/presidente/camila.jpg';
+            inputNome.value = 'Camilia Kirch';
+            inputParido.value = 'PRD - Partido da Renovação Democrática';
+            inputTipo.value = 'Presidente';
             break;
 
         case '4925':
             img.src = './img/PRD/marcus.jpg';
+            inputNome.value = 'Marcus Vinicius';
+            inputParido.value = 'PRD - Partido da Renovação Democrática';
+            inputTipo.value = 'Deputado';
             break;
 
         case '4911':
             img.src = './img/PRD/juliaT.jpg';
+            inputNome.value = 'Julia Trento';
+            inputParido.value = 'PRD - Partido da Renovação Democrática';
+            inputTipo.value = 'Deputado';
             break;
 
         case '4913':
             img.src = './img/PRD/barbara.jpg';
+            inputNome.value = 'Barbara Monique';
+            inputParido.value = 'PRD - Partido da Renovação Democrática';
+            inputTipo.value = 'Deputado';
             break;
 
         case '57':
             img.src = './img/PDL/presidente/ricardo.jpg';
+            inputNome.value = 'Ricardo';
+            inputParido.value = 'PDL - Partido Democrático Liberal';
+            inputTipo.value = 'Presidente';
             break;
 
         case '5705':
             img.src = './img/PDL/luana.jpg';
+            inputNome.value = 'Luana Paimel';
+            inputParido.value = 'PDL - Partido Democrático Liberal';
+            inputTipo.value = 'Deputado';
             break;
 
         case '5769':
             img.src = './img/PDL/matheusP.jpg';
+            inputNome.value = 'Matheus Paraiso';
+            inputParido.value = 'PDL - Partido Democrático Liberal';
+            inputTipo.value = 'Deputado';
             break;
 
         case '5701':
             img.src = './img/PDL/andre.jpg';
+            inputNome.value = 'Sara Ribeiro';
+            inputParido.value = 'PDL - Partido Democrático Liberal';
+            inputTipo.value = 'Deputado';
             break;
+
 
         case '97':
             img.src = './img/FNB/presidente/jefferson.jpg';
+            inputNome.value = 'Jefferson Carradore Filho';
+            inputParido.value = 'FNB - Frente Neo Liberal Brasileira';
+            inputTipo.value = 'Presidente';
             break;
+
 
         case '9766':
             img.src = './img/FNB/marcosH.jpg';
+            inputNome.value = 'Marcos Henrique Warmling';
+            inputParido.value = 'FNB - Frente Neo Liberal Brasileira';
+            inputTipo.value = 'Deputado';
             break;
+
 
         case '9723':
             img.src = './img/FNB/lucasM.jpg';
+            inputNome.value = 'Lucas Medeiros Marcos';
+            inputParido.value = 'FNB - Frente Neo Liberal Brasileira';
+            inputTipo.value = 'Deputado';
             break;
 
         case '9788':
             img.src = './img/FNB/miguel.jpg';
+            inputNome.value = 'Miguel Gonzaga Machado';
+            inputParido.value = 'FNB - Frente Neo Liberal Brasileira';
+            inputTipo.value = 'Deputado';
+            break;
+
+        case 'q':
+            img.src = './img/PLIE/presidente/daviL.jpg';
+            inputNome.value = '';
+            inputParido.value = '';
+            inputTipo.value = '';
+            break;
+
+        case 's':
+            img.src = './img/PLIE/gabriel.jpg';
+            inputNome.value = '';
+            inputParido.value = '';
+            inputTipo.value = '';
+            break;
+
+        case 'd':
+            img.src = './img/PLIE/mateusN.jpg';
+            inputNome.value = '';
+            inputParido.value = '';
+            inputTipo.value = '';
+            break;
+
+        case 'f':
+            img.src = './img/PLIE/reinaldo.jpg';
+            inputNome.value = '';
+            inputParido.value = '';
+            inputTipo.value = '';
+            break;
+
+        case 'g':
+            img.src = './img/PRL/gabrielaG.jpg';
+            inputNome.value = '';
+            inputParido.value = '';
+            inputTipo.value = '';
+            break;
+
+        case 'b':
+            img.src = './img/PRL/isabela.jpg';
+            inputNome.value = '';
+            inputParido.value = '';
+            inputTipo.value = '';
+            break;
+
+        case 'm':
+            img.src = './img/PRL/joaoS.jpg';
+            inputNome.value = '';
+            inputParido.value = '';
+            inputTipo.value = '';
+            break;
+
+        case 'n':
+            img.src = './img/PLIE/vitorN.jpg';
+            inputNome.value = '';
+            inputParido.value = '';
+            inputTipo.value = '';
             break;
 
         case '0000':
             img.src = './img/limpa/branco.png';
-            alert("Voto nulo, imagem inexistente.");
-            break; 
+            alert("Voto nulo.");
+            break;
 
-            default:
+        default:
             img.src = './img/limpa/branco.png';
-            alert("Inexistente.")
+            alert("Candidato inexistente.")
             break;
     }
 }
