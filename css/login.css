@@ -1,0 +1,10 @@
+body{
+    background-color: silver;
+    height: 30cm;
+    width: 30cm;
+}
+table{
+    margin-top: 8em;
+    margin-right: -9em;
+    background-color: lightgray;
+}
