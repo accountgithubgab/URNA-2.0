@@ -7,35 +7,70 @@ var inputNome = document.getElementById('nome');
 var inputParido = document.getElementById('partido');
 var inputParido1 = document.getElementById('partido1');
 var inputTipo = document.getElementById('tipos');
-
+////// LOGIN
+function Login(){
+    var done=0;
+    var username=document.login.username.value;
+    username=username.toLowerCase();
+    var password=document.login.password.value;
+    password=password.toLowerCase();
+    if (username=="1" && password=="1") { window.location="./resultado.html"; done=1; }
+    if (done==0) { alert("Senha ou Usuário inválido."); }
+    }
+///// TEMPO
+function tempo(){
+    setTimeout(function () {
+        inputFirst.value = "";
+        inputSecond.value = "";
+        inputThird.value = "";
+        inputFourth.value = "";
+        inputNome.value = "";
+        inputParido.value = "";
+        inputTipo.value = "";
+        inputParido1.value = "";
+        img.src = './img/limpa/branco.png';
+    }, 3000);
+};
+/////// BRANCO
+function branco() {
+    var inputConjunto = "branco";
+    alert("Voto branco.");
+    console.log(inputConjunto);
+    limpa();
+}
+////// LIMPA
+function limpa() {
+    inputFirst.value = "";
+    inputSecond.value = "";
+    inputThird.value = "";
+    inputFourth.value = "";
+    inputNome.value = "";
+    inputParido.value = "";
+    inputParido1.value = "";
+    inputTipo.value = "";
+    img.src = './img/limpa/branco.png';
+}
 /////RESETAR
-
 function resetar(){
     alert("to resetando vagabundo");
 }
-
-
 //// AUTOTAB
 function autotab(original, destination) {
     if (original.getAttribute && original.value.length == original.getAttribute("maxlength"))
         destination.focus()
 }
-
 ////// CONFIRMA
 function confirma() {
-
     var first = inputFirst.value;
     var second = inputSecond.value;
     var third = inputThird.value;
     var fourth = inputFourth.value;
     var inputConjunto = (first + second + third + fourth);
-
+    tempo();
     limpa();
-
     switch (inputConjunto) {
 
         /////// 2B
-
         case '67':
             img.src = './img/MAD/presidente/tiago.jpeg';
             inputNome.value = 'Tiago do Vale de Oliveira';
@@ -479,40 +514,17 @@ function confirma() {
             break;
     }
 }
-/////// BRANCO
-function branco() {
-
-    var inputConjunto = "branco";
-    alert("Voto branco.");
-    console.log(inputConjunto);
-    limpa();
-}
-////// LIMPA
-function limpa() {
-    inputFirst.value = "";
-    inputSecond.value = "";
-    inputThird.value = "";
-    inputFourth.value = "";
-    inputNome.value = "";
-    inputParido.value = "";
-    inputParido1.value = "";
-    inputTipo.value = "";
-    img.src = './img/limpa/branco.png';
-}
-///// ENVIAR
-function enviar() {
-}
 //////////// VISUALIZAR
 function visualizar() {
     var first = inputFirst.value;
     var second = inputSecond.value;
     var third = inputThird.value;
     var fourth = inputFourth.value;
-    var inputConjunto = (first + second + third + fourth);
-    
+    var inputConjunto = (first + second + third + fourth);   
     switch (inputConjunto) {
         
         /////// 2B
+
         case '67':
             img.src = './img/MAD/presidente/tiago.jpeg';
             inputNome.value = 'Tiago do Vale de Oliveira';
