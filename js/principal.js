@@ -8,6 +8,13 @@ var inputParido = document.getElementById('partido');
 var inputParido1 = document.getElementById('partido1');
 var inputTipo = document.getElementById('tipos');
 
+/////RESETAR
+
+function resetar(){
+    alert("to resetando vagabundo");
+}
+
+
 //// AUTOTAB
 function autotab(original, destination) {
     if (original.getAttribute && original.value.length == original.getAttribute("maxlength"))
@@ -488,6 +495,7 @@ function limpa() {
     inputFourth.value = "";
     inputNome.value = "";
     inputParido.value = "";
+    inputParido1.value = "";
     inputTipo.value = "";
     img.src = './img/limpa/branco.png';
 }
@@ -734,7 +742,6 @@ function visualizar() {
 
         ///////// 2A
 
-     
         case '37':
             img.src = './img/PSDD/presidente/matheusA.jpg';
             inputNome.value = 'Matheus Almeida';

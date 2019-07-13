@@ -99,7 +99,7 @@ label{
 
 button{
 	padding: .5em 2em;
-	border: 0;
+	border: 1em;
 	border-bottom: 3px solid;
 	font-size: 1.2em;
 	cursor: pointer;
@@ -136,4 +136,9 @@ button[disabled=disabled], button:disabled {
 
 .paciente-invalido {
 	background-color: lightcoral;
+}
+#resetar{
+	margin-left: 90em;
+	border: solid;
+	height: 3em;
 }
